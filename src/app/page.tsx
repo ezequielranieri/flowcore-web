@@ -9,6 +9,7 @@ import UseCasesSection from "@/components/sections/UseCasesSection";
 import TechSection from "@/components/sections/TechSection";
 import ReliabilitySection from "@/components/sections/ReliabilitySection";
 import ScalabilitySection from "@/components/sections/ScalabilitySection";
+import ObservabilitySection from "@/components/sections/ObservabilitySection";
 
 export default function Home() {
   return (
@@ -82,6 +83,7 @@ export default function Home() {
     <TechSection />
     <ReliabilitySection />
     <ScalabilitySection />
+    <ObservabilitySection />
     </>
   );
 }
