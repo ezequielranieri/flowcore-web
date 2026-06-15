@@ -3,10 +3,12 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
+import ProblemSection from "@/components/sections/ProblemSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-[#040408] text-foreground p-4 text-center">
+    <>
+    <main className="min-h-[90vh] flex flex-col items-center justify-center bg-[#040408] text-foreground p-4 text-center">
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -69,5 +71,7 @@ export default function Home() {
         <span className="text-brand-blue">flowcore</span>
       </motion.a>
     </main>
+    <ProblemSection />
+    </>
   );
 }
