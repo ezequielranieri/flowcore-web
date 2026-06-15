@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import ProblemSection from "@/components/sections/ProblemSection";
+import SolutionSection from "@/components/sections/SolutionSection";
 
 export default function Home() {
   return (
@@ -72,6 +73,7 @@ export default function Home() {
       </motion.a>
     </main>
     <ProblemSection />
+    <SolutionSection />
     </>
   );
 }
