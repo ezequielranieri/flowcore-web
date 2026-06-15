@@ -59,7 +59,7 @@ export default function ProblemSection() {
 
           {/* Solid gradient line */}
           <motion.div
-            className="h-[2px] flex-1 bg-gradient-to-r from-brand-cyan to-brand-purple"
+            className="h-[2px] flex-1 bg-gradient-to-r from-brand-cyan to-brand-purple mx-2"
             initial={{ scaleX: 0 }}
             whileInView={{ scaleX: 1 }}
             viewport={{ once: true }}
@@ -78,7 +78,7 @@ export default function ProblemSection() {
           </div>
 
           {/* Dashed faded line */}
-          <div className="h-0 flex-1 border-t-2 border-dashed border-muted-foreground opacity-25" />
+          <div className="h-0 flex-1 border-t-2 border-dashed border-muted-foreground opacity-25 mx-2" />
 
           {/* End node (ghost) */}
           <div className="w-6 h-6 rounded-full border-2 border-dashed border-muted-foreground opacity-50 shrink-0" />
