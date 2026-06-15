@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Flowcore — Workflows that survive failures",
-  description: "A distributed and durable engine for Python.",
+  title: "Flowcore",
+  description: "Workflows that survive failures. A distributed and durable engine for Python.",
 };
 
 export default function RootLayout({
