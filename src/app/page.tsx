@@ -5,6 +5,7 @@ import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import ProblemSection from "@/components/sections/ProblemSection";
 import SolutionSection from "@/components/sections/SolutionSection";
+import UseCasesSection from "@/components/sections/UseCasesSection";
 
 export default function Home() {
   return (
@@ -74,6 +75,7 @@ export default function Home() {
     </main>
     <ProblemSection />
     <SolutionSection />
+    <UseCasesSection />
     </>
   );
 }
