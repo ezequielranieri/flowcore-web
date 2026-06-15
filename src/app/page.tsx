@@ -10,6 +10,7 @@ import TechSection from "@/components/sections/TechSection";
 import ReliabilitySection from "@/components/sections/ReliabilitySection";
 import ScalabilitySection from "@/components/sections/ScalabilitySection";
 import ObservabilitySection from "@/components/sections/ObservabilitySection";
+import FinalSection from "@/components/sections/FinalSection";
 
 export default function Home() {
   return (
@@ -70,11 +71,12 @@ export default function Home() {
         href="https://github.com/ezequielranieri/flowcore"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-2 text-sm text-muted-foreground hover:text-brand-blue transition-colors"
+        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-brand-blue transition-colors"
       >
-        <ExternalLink className="w-4 h-4" />
-        github.com/ezequielranieri/
-        <span className="text-brand-blue">flowcore</span>
+        <ExternalLink className="w-4 h-4 shrink-0" />
+        <span className="whitespace-nowrap">
+          github.com/ezequielranieri/<span className="text-brand-blue">flowcore</span>
+        </span>
       </motion.a>
     </main>
     <ProblemSection />
@@ -84,6 +86,7 @@ export default function Home() {
     <ReliabilitySection />
     <ScalabilitySection />
     <ObservabilitySection />
+    <FinalSection />
     </>
   );
 }
