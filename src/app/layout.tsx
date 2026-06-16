@@ -16,6 +16,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Flowcore",
   description: "Workflows that survive failures. A distributed and durable engine for Python.",
+  openGraph: {
+    title: "Flowcore",
+    description: "Workflows that survive failures. A distributed and durable engine for Python.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Flowcore — Workflows that survive failures.",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Flowcore",
+    description: "Workflows that survive failures. A distributed and durable engine for Python.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
