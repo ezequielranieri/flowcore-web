@@ -13,7 +13,7 @@ const features = [
 
 export default function ReliabilitySection() {
   return (
-    <section className="py-16 max-w-4xl mx-auto px-4">
+    <section className="py-8 max-w-4xl mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Right column (visual) -- order-1 on mobile, order-2 on md */}
         <motion.div

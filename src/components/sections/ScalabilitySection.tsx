@@ -13,7 +13,7 @@ const paths = [
 
 export default function ScalabilitySection() {
   return (
-    <section className="py-16 max-w-4xl mx-auto px-4">
+    <section className="py-8 max-w-4xl mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left column (visual) -- order-1 */}
         <div className="relative order-1 w-full max-w-md mx-auto aspect-square">
